@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>APP测试插件v1.0</title>
+	<link rel="stylesheet" href="stylesheets/public.css">
+	<link rel="stylesheet" href="stylesheets/bootstrap.min.css">
+	<link rel="stylesheet" href="fonts/iconfont.css">
+</head>
+<body>
+	<div class="header">
+		<div class="jumbotron">
+			<h1>APP测试插件</h1>
+		</div>
+		<!-- <div class="page-header">
+  			<h1>请输入设备所需字段<small>（如：WorkMode）</small></h1>
+  			<button type="button" class="btn btn-success" id="add_key"><i class="iconfont">&#xe625;</i>&nbsp;添加设备字段输入框</button>
+  			<button type="button" class="btn btn-danger" id="delete_key"><i class="iconfont">&#xe600;</i>&nbsp;删除设备字段输入框</button>
+		</div> -->
+	</div>
+	<div class="container">		
+		<div class="row">
+			<div class="col-xs-2 col-sm-2 col-md-2">
+				<div class="left-bar f_l">
+					<div class="list-group">
+  						<a href="#" class="list-group-item active">
+    						默认模式
+  						</a>
+  						<a href="#" class="list-group-item">模式一</a>
+  						<a href="#" class="list-group-item">模式二</a>
+  						<a href="#" class="list-group-item"><i class="iconfont">&#xe625;</i>&nbsp;添加模式</a>
+  						<a href="#" class="list-group-item" id="add_key"><i class="iconfont">&#xe625;</i>&nbsp;添加字段</a>
+					</div>
+				</div>
+			</div>					
+			<div class="col-xs-2 col-sm-2 col-md-10">
+				<div class="right-content f_l">
+					<table class="table table-striped">
+  						<!-- <thead>
+  							<tr>
+  								<th>key值</th>
+  								<th>value值</th>
+  								<th>操作</th>
+  							</tr>
+  						</thead> -->
+  						<tbody id="parent_box">
+  							<tr class="childPart">
+  								<td>
+  									<div class="input-group">
+  										<input type="text" class="form-control" placeholder="请输入设备key值" aria-describedby="basic-addon2">
+									</div>
+  								</td>
+  								<td>
+  									<div class="input-group">
+  										<input type="text" class="form-control" placeholder="请输入对应value值" aria-describedby="basic-addon2">
+									</div>
+  								</td>
+  								<td>
+  									<div class="removeTd delete_key">
+  										<i class="iconfont">&#xe600;</i>
+  									</div>
+  								</td>
+  							</tr>
+  						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+		
+		
+		<!-- <div class="row" id="main_content">
+			<div class="col-xs-3 col-sm-4 col-md-4">
+				<div class="input-group">
+  					<input type="text" class="form-control" placeholder="WorkMode" aria-describedby="basic-addon1">
+				</div>
+			</div>
+		</div> -->
+	</div>
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/public.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+/* common style */
+
+.f_l{
+	float: left;
+}
+.f_r{
+	float: right;
+}
+table{
+	width: 100%;
+}
+
+/* common end */
+
+/* header begin */
+
+.header{
+	text-align: center;
+}
+.page-header{
+	.btn{
+		margin: 10px;
+	}
+}
+
+/* header end */
+
+/* container start */
+
+.left-bar{
+	position: fixed;
+	top: 200;
+}
+.removeTd{
+	.iconfont{
+		font-size: 1.7em;
+
+	}
+	cursor: pointer;
+}
+
+/* container end */
